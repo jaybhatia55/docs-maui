@@ -1,0 +1,67 @@
+name: ".NET MAUI doc issue"
+description: Report a problem in the .NET Multi-platform App UI (.NET MAUI) documentation.
+title: "[doc bug]: "
+labels: doc-bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```
+         ┌─────────┐
+         │IMPORTANT├───────────────────────────┐
+         └───────┬─┘ Please read the           │
+                 │      following information  │
+                 └─────────────────────────────┘
+        ```
+
+        If you have questions about how to use the product, or other support requests, please direct them to [Microsoft Q&A](https://docs.microsoft.com/answers/products/).
+
+        If you have feedback about the product, or issues with the product, please report them at [Developer Community](https://developercommunity.visualstudio.com/).
+
+        If you have issues with the site experience, for example, the header, footer, navigation, or rendering, please report them at [Microsoft Docs Feedback](https://aka.ms/sitefeedback).
+
+        If you believe there's an issue with the documentation, please fill out the following information.
+
+  - type: input
+    id: url
+    attributes:
+      label: Article URL
+      description: "Which article has the problem?"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: platforms-affected
+    attributes:
+      label: Affected platforms
+      description: Which platforms are affected?
+      options:
+        - Android
+        - iOS
+        - macOS
+        - Windows
+        - Other (Tizen, Linux, etc. - not supported by Microsoft directly)
+    validations:
+      required: true
+
+  - type: input
+    id: platform-versions
+    attributes:
+      label: Affected platform versions
+      description: Please provide the version numbers of the platforms you see this issue on.
+      placeholder: e.g. iOS 15, Android 11 and up, Windows SDK 10.0.17134.0, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's the problem you had with the documentation? (markdown allowed)
+    validations:
+      required: true
+
+ - type: markdown
+    attributes:
+      value: |
+        By opening the issue you agree to follow this project's [Code of Conduct](https://github.com/dotnet/docs-maui/blob/main/CODE_OF_CONDUCT.md).
