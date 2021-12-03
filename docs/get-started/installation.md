@@ -14,9 +14,12 @@ To create .NET Multi-platform App UI (.NET MAUI) apps, you need the latest previ
 
 To create .NET MAUI apps, you'll need [Visual Studio 17.1 Preview 1](https://visualstudio.microsoft.com/vs/preview/). Either install Visual Studio, or modify your installation, and install the following **workloads**:
 
-- Mobile development with .NET
+- Select Mobile development with .NET
 
-  :::image type="content" source="media/installation/vs-workloads.png" alt-text="Visual Studio workloads for .NET MAUI.":::
+  ![Visual Studio workloads for .NET MAUI.](media/installation/vs-workloads.png?raw=true)
+
+- Select optional Componenet and check if .NET MAUI is Checked 
+![Visual Studio workloads- Optional Components for .NET MAUI.](media/installation/vs-installation-details.png?raw=true)
 
 ## Next steps
 
