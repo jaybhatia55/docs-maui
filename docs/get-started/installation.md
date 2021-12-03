@@ -19,7 +19,9 @@ To create .NET MAUI apps, you'll need [Visual Studio 17.1 Preview 1](https://vis
   ![Visual Studio workloads for .NET MAUI.](media/installation/vs-workloads.png?raw=true)
 
 - Select optional Componenet and check if .NET MAUI is Checked 
-![Visual Studio workloads- Optional Components for .NET MAUI.](media/installation/vs-installation-details.png?raw=true)
+
+  ![Visual Studio workloads- Optional Components for .NET MAUI.](media/installation/vs-installation-details.png?raw=true)
+
 
 ## Next steps
 
